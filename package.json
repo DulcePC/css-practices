@@ -1,0 +1,25 @@
+{
+  "name": "css-practices",
+  "version": "1.0.0",
+  "description": "Here Im going to upload all my css practices, with tailwind.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build ./scss/style.scss -o ./css/style.css",
+    "watch": "tailwindcss --watch ./scss/style.scss -o ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DulcePC/css-practices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DulcePC/css-practices/issues"
+  },
+  "homepage": "https://github.com/DulcePC/css-practices#readme",
+  "devDependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
