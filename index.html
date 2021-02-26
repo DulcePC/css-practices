@@ -8,9 +8,123 @@
   <title>TailwindCss</title>
 </head>
 <body>
-  <section class="bg-pink-400">
+  <section class="py-5">
     <div class="container">
-      dk
+      <h1 class="text-pink-300 text-4xl underline">Flexbox Section</h1>
+      <div class="grid md:grid-cols-2 grid-cols-1 text-center md:gap-2">
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Main axis <b>(row)</b></h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex text-white font-bold">
+            <div class="bg-pink-300">1</div>
+            <div class="bg-pink-400">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Cross axis <b>(column)</b></h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex flex-col text-white font-bold">
+            <div class="bg-pink-300">1</div>
+            <div class="bg-pink-400">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Column reverse</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex flex-col flex-col-reverse text-white font-bold">
+            <div class="bg-pink-300">1</div>
+            <div class="bg-pink-400">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Row reverse</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex flex-row-reverse text-white font-bold">
+            <div class="bg-pink-300">1</div>
+            <div class="bg-pink-400">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Add flex for childs</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">justify-start</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">justify-end</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex justify-end text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">justify-space-around</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex justify-around text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">justify-space-between</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex justify-between text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">justify-center</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex justify-center text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Row reverse with justify-end</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex flex-row-reverse justify-end text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Row reverse with justify-start</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex flex-row-reverse justify-start text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Column with justify-end</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex flex-col justify-end text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Column with justify-start</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex flex-col justify-start text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Column reverse with justify-start</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex flex-col flex-col-reverse justify-start text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+        <div class="flex-information-container">
+          <h2 class="text-pink-200 text-lg italic">Column reverse with justify-start</h2>
+          <div class="lg:w-96 w-full h-52 bg-pink-600 flex flex-col flex-col-reverse justify-end text-white font-bold">
+            <div class="bg-pink-300 w-24 h-24 flex items-center justify-center">1</div>
+            <div class="bg-pink-400 w-24 h-24 flex items-center justify-center">2</div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </body>

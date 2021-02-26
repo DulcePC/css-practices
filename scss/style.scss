@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.flex-information-container {
+  @apply mt-6;
+}
+
+@screen lg {
+  .flex-information-container {
+    @apply mx-auto;
+  }
+}

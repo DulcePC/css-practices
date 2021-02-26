@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/DulcePC/css-practices#readme",
   "devDependencies": {
+    "postcss": "^8.2.6",
+    "postcss-nested": "^5.0.3",
     "tailwindcss": "^2.0.3"
   }
 }
